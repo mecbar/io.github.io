@@ -1,0 +1,164 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+ font-family: 'Raleway', sans-serif; 
+}
+
+nav ul a,
+nav .brand-logo {
+  color : #a3333d;
+  font-family: 'Satisfy', cursive;
+
+}
+
+h1.brand-logo {
+  color : #a3333d;
+  font-family: 'Satisfy', cursive;
+
+}
+
+.nav-wrapper{
+    padding-left: 2%;
+  padding-right: 2%;
+}
+
+p {
+  line-height: 3rem;
+}
+
+.button-collapse {
+  color: #f64740;
+}
+
+.parallax-container {
+  min-height: 420px;
+  line-height: 0;
+  height: auto;
+  color:#a3333d;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+/* For mobile phones: */
+[class="video2"] {
+    width: 100%;
+}
+
+@media only screen and (max-width : 600px) {
+  .video1  {
+    top: 0;
+  }
+}
+.icon-block {
+  padding: 4% 7% 4% 7%;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*********** social *******/
+.social-icon {
+  font-size:1.5em ;
+  color : blue ;
+  text-align :center;
+  padding : 0% 1% 0% 1%;
+}
+
+.social-icon :hover {
+  font-size : 2em;
+  color : red ;
+}
+
+.icon-block :hover {
+  font-size : 2em;
+  color : red ;
+}
+
+.rowcenter {
+  color : white;
+  font-size :2em ;
+  background-color :  #C42929;
+  text-align: center;
+}
+
+.section1 {
+  background-color: #F79D65
+}
+
+/**** amgular  ***************/
+
+.angular {
+  background-color: lightgreen;
+  font-family: 'Satisfy', cursive;
+}
+
+.angular2 {
+  background-color: whitesmoke ;
+  font-size: 2em;
+  font-family: 'Satisfy', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1em;
+    font-family: 'Satisfy', sans-serif;
+
+}
+
+.button {
+    background-color : orangered; /* blue */
+    border: none;
+    color: white;
+    padding: 8px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+} 
+
+#elenco {
+  display:none;
+}
+
+.text {
+   color : blue ;
+  text-align :center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+} 
+
+.grid_ang {
+  font-family: 'Satisfy', cursive;
+}
